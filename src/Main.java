@@ -5,6 +5,7 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Palindromu alınacak kelimeyi giriniz :");
 		String word  = input.nextLine();
+		word = word.trim();
 		if(isPalindrome(word))
 		{
 			System.out.println(word + " kelimesi bir palindromdur.");
